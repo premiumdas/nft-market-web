@@ -3,7 +3,9 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className='header absolute-center cur-po'>
+      <span className='header-gradient'>E V O L V E</span>
+    </div>
   )
 }
 
