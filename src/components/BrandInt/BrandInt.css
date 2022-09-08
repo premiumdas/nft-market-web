@@ -1,0 +1,9 @@
+.brand-int{
+    display: flex;
+    align-items: center;
+}
+
+.bi-logos{
+    height: 50px;
+    margin-left: 6%;
+}

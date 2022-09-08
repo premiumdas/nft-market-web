@@ -7,9 +7,10 @@ const TopFold = () => {
     <div className='topfold absolute-center'>
       <div className='tf-left'>
         <div className='tf-heading'>
-          Discover, collect & sell{' '} 
-          <span className='header-gradient'>Extraordinary </span>
-          NFTs
+          Discover, collect & sell{" "} 
+          <span className='header-gradient'>
+            Extraordinary
+          </span> NFTs
         </div>
         <div className='tf-description'>
           some description abt nfts blah blah blah
@@ -33,7 +34,23 @@ const TopFold = () => {
           </div>
         </div>
       </div>
-      <div className='tf-right'></div>
+      <div className='tf-right'>
+        <div className='tf-r-bg-blob'></div>
+        <div className='tf-right-diamond'>
+          <div className='tf-r-diamond-item absolute-center'>
+            <img className='tf-r-diamond-img' alt='diamond-banner' src='https://c.tenor.com/ex0ssYC5xdEAAAAd/metakongz-nft.gif'></img>
+          </div>
+          <div className='tf-r-diamond-item absolute-center'>
+            <img className='tf-r-diamond-img' alt='diamond-banner' src='https://c.tenor.com/uHVmd0uBuU0AAAAC/bored-ape-yacht-club-nft.gif'></img>
+          </div>
+          <div className='tf-r-diamond-item absolute-center'>
+            <img className='tf-r-diamond-img' alt='diamond-banner' src='https://c.tenor.com/1i16nMrNj88AAAAC/nft-marketing-nft-gorillas.gif'></img>
+          </div>
+          <div className='tf-r-diamond-item absolute-center'>
+            <img className='tf-r-diamond-img' alt='diamond-banner' src='https://c.tenor.com/18a0dELaS7kAAAAC/artsymind-rtfkt.gif'></img>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

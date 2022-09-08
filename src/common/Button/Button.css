@@ -10,6 +10,7 @@
 .primary-btn{
     color: var(--white);
     background-color: var(--btn-bg);
+    text-transform: uppercase;
 }
 
 .secondary-btn{

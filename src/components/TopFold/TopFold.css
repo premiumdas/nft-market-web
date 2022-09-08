@@ -50,3 +50,45 @@
     font-weight: 600;
     margin-top: 10px;
 }
+
+.tf-right{
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.tf-right-diamond{
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotate(45deg);
+}
+
+.tf-r-diamond-item{
+    height: 280px;
+    width: 280px;
+    overflow: hidden;
+    margin: 6px;
+    transform: rotate(-45deg);
+    cursor: pointer;
+    border: 3px solid white;
+    border-radius: 12px;
+}
+
+.tf-r-diamond-item img{
+    height: 400px;
+    object-fit: contain;
+    display: block;
+}
+
+.tf-r-bg-blob{
+    height: 430px;
+    width: 430px;
+    background-color: aqua;
+    filter: blur(168px);
+    position: absolute;
+    z-index: -99;
+    left: 15%;
+    top: 8%;
+    transform: translateY(0%);
+    
+}
