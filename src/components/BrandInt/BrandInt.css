@@ -1,9 +1,12 @@
 .brand-int{
     display: flex;
-    align-items: center;
+    margin: auto;
+    width: 80%;
+    padding: 48px 0px 48px 0px;
 }
 
 .bi-logos{
-    height: 50px;
+    height: 60px;
     margin-left: 6%;
+    cursor: pointer;
 }
